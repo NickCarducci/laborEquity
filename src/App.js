@@ -26,7 +26,7 @@ export default class App extends React.Component {
   render() {
     const { marginTop } = this.state;
     return (
-      <div className="App">
+      <div style={{ maxWidth: "600px", width: "100%" }}>
         <div
           ref={this.header}
           style={{
@@ -69,6 +69,21 @@ export default class App extends React.Component {
             href="https://saverparty.xyz"
           >
             saver
+          </a>
+          <a
+            style={{
+              shapeOutside: "rect()",
+              float: "right",
+              width: "max-content",
+              padding: "0px 10px",
+              fontSize: "20px",
+              fontFamily: "'Pacifico', sans-serif",
+              color: "rgb(230,230,255)",
+              backgroundColor: "rgb(32, 22, 11)"
+            }}
+            href="https://truncatedsalestax.com"
+          >
+            truncatedproductiontax (delivery)
           </a>
           <h1>LaborEquity.org</h1>
           <h2>
